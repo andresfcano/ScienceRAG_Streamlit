@@ -44,7 +44,7 @@ def page():
         st.session_state["messages"] = []
         st.session_state["assistant"] = ChatPDF()
 
-    st.header("ChatPDF")
+    st.header("ScienceRAG")
 
     st.subheader("Upload a document")
     st.file_uploader(
